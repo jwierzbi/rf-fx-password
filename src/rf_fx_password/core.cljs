@@ -3,6 +3,8 @@
             [clojure.string :as string]))
 
 (defn gen-password
+  "Generates random password with a given `length`. The password is generated
+   from lower and upper-case letters, numbers and special characters."
   [length]
   (let [chars (string/join ["abcdefghijklmnopqrstuvwxyz"
                             "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
