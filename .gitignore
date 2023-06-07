@@ -4,6 +4,9 @@
 profiles.clj
 pom.xml
 pom.xml.asc
+package.json
+package-lock.json
+shadow-cljs.edn
 *.jar
 *.class
 /.lein-*
@@ -11,3 +14,6 @@ pom.xml.asc
 /.prepl-port
 /.clj-kondo
 /.lsp
+/.vscode
+/.shadow-cljs
+/node_modules
