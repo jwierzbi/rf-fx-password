@@ -1,4 +1,4 @@
-(defproject net.clojars.jwierzbi/rf-fx-password "0.1.1"
+(defproject net.clojars.jwierzbi/rf-fx-password "0.1.2-SNAPSHOT"
   :description "re-frame coeffect for generating random passwords."
   :url "https://github.com/jwierzbi/rf-fx-password"
   :license {:name "BSD-2-Clause"
