@@ -1,0 +1,23 @@
+name: unit tests
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Cache
+        uses: actions/cache@v3
+        with:
+          key: ${{ runner.os }}-cache-${{ hashFiles('project.clj') }}
+          restore-keys: |
+            ${{ runner.os }}-cache-
+          path: |
+            ~/.npm
+            ~/.m2/repository
+            .shadow-cljs
+      - name: Run unit tests
+        run: lein ci

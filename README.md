@@ -3,6 +3,8 @@
 A [re-frame](https://github.com/day8/re-frame) coeffect for creating random
 passwords.
 
+![Unit tests status](https://github.com/jwierzbi/rf-fx-password/actions/workflows/unit-tests.yaml/badge.svg)
+
 ## Usage
 
 **Step 1.**
