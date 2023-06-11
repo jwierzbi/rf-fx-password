@@ -20,6 +20,6 @@ log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
 
 - Added implementation of a random password generating coeffect.
 
-[Unreleased]: https://github.com/jwierzbi/rf-rx-password/compare/0.1.1...HEAD
-[0.1.1]: https://github.com/jwierzbi/rf-rx-password/compare/0.1.0...0.1.1
-[0.1.0]: https://github.com/jwierzbi/rf-rx-password/compare/373c9621...0.1.0
+[Unreleased]: https://github.com/jwierzbi/rf-fx-password/compare/0.1.1...HEAD
+[0.1.1]: https://github.com/jwierzbi/rf-fx-password/compare/0.1.0...0.1.1
+[0.1.0]: https://github.com/jwierzbi/rf-fx-password/compare/373c9621...0.1.0
